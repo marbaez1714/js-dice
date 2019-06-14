@@ -38,24 +38,36 @@ export default function DiceTray(prosp) {
         <input value={numberOfDice} onChange={e => setNumberOfDice(e.target.value)} />
         <button onClick={() => createDice()}>ROLL</button>
         <div>
-          <span className="number">
-            One : <span className="numberFound">{numberArray.one}</span>
-          </span>
-          <span className="number">
-            Two : <span className="numberFound">{numberArray.two}</span>
-          </span>
-          <span className="number">
-            Three : <span className="numberFound">{numberArray.three}</span>
-          </span>
-          <span className="number">
-            Four : <span className="numberFound">{numberArray.four}</span>
-          </span>
-          <span className="number">
-            Five : <span className="numberFound">{numberArray.five}</span>
-          </span>
-          <span className="number">
-            Six : <span className="numberFound">{numberArray.six}</span>
-          </span>
+          {numberArray.one > 0 && (
+            <div className="number">
+              One : <span className="numberFound">{numberArray.one}</span>
+            </div>
+          )}
+          {numberArray.two > 0 && (
+            <div className="number">
+              Two : <span className="numberFound">{numberArray.two}</span>
+            </div>
+          )}
+          {numberArray.three > 0 && (
+            <div className="number">
+              Three : <span className="numberFound">{numberArray.three}</span>
+            </div>
+          )}
+          {numberArray.four > 0 && (
+            <div className="number">
+              Four : <span className="numberFound">{numberArray.four}</span>
+            </div>
+          )}
+          {numberArray.five > 0 && (
+            <div className="number">
+              Five : <span className="numberFound">{numberArray.five}</span>
+            </div>
+          )}
+          {numberArray.six > 0 && (
+            <div className="number">
+              Six : <span className="numberFound">{numberArray.six}</span>
+            </div>
+          )}
         </div>
       </div>
       <div className="diceContainer">{diceArray}</div>

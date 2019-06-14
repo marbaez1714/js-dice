@@ -15,13 +15,15 @@
 
 .diceTray {
     display: flex;
-    padding: 50px;
+    padding: 20px;
     flex-direction: column;
+    align-items: center;
 
     .diceContainer {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        justify-content: center
     }
 
     .inputRow {
@@ -33,6 +35,7 @@
 
         .number {
             margin: 5px;
+            font-size: 20px;
 
             .numberFound {
                 font-weight: bold;
