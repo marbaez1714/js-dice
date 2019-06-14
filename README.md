@@ -1,5 +1,5 @@
 Welcome to JS DICE created by marbaez1714 on 6-13-19. 
-
+#### __11:10pm Update - It's on GH Pages now and it's mobile friendly!__
 
 ## Why? 
 I thought it would be fun to challenge myself to a one hour code challenge. The only problem was, I didn't know what to make. So here we are... an app to help me roll lots and lots of dice for games of chance... or Warhammer 40k. 
@@ -15,7 +15,6 @@ Here's what I hope to have done at the end of the hour.
 - See how many of each number are rolled.
 - Cooooool animations when the dice are rolled. 
 - Custom dice colors
-- Mobile friendly and up on Github Pages.
 - A sense of pride and accomplishment. 
 
 I am starting this challenge at 9:50pm! 
@@ -30,6 +29,7 @@ Here's what I got done!
 - Ability to roll any number of dice (min of 20).  
 - See how many of each number are rolled.
 - A sense of pride and accomplishment. 
+- Mobile friendly and up on Github Pages. - ___11:10pm Update___
 
 
 Not too bad for an hour? Let's see how long it takes to get it all done. Updates to come.
