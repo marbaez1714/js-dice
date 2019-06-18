@@ -40,11 +40,11 @@ export default function Dice(props) {
       </div>
       <div className="dieCol filler" />
       <div className="dieCol ">
-        <div className={`dieGrid ${findPip([6])}`} />
         <div className="dieGrid" />
-        <div className={`dieGrid ${findPip([1, 3, 5, 6])} `} />
         <div className="dieGrid" />
-        <div className={`dieGrid ${findPip([6])}`} />
+        <div className={`dieGrid ${findPip([1, 3, 5])} `} />
+        <div className="dieGrid" />
+        <div className="dieGrid" />
       </div>
       <div className="dieCol filler" />
       <div className="dieCol ">
