@@ -13,8 +13,9 @@ Here's what I hope to have done at the end of the hour.
 - One page React app.
 - Ability to roll any number of dice (min of 20).  
 - See how many of each number are rolled.
-- Cooooool animations when the dice are rolled. 
 - Custom dice colors
+- Mobile friendly and up on Github Pages.
+- Cooooool animations when the dice are rolled.
 - A sense of pride and accomplishment. 
 
 I am starting this challenge at 9:50pm! 
@@ -30,6 +31,7 @@ Here's what I got done!
 - See how many of each number are rolled.
 - A sense of pride and accomplishment. 
 - Mobile friendly and up on Github Pages. - ___11:10pm Update___
+- Cooooool animations when the dice are rolled. - ___11:56pm Update - I need sleep___
 
 
 Not too bad for an hour? Let's see how long it takes to get it all done. Updates to come.
